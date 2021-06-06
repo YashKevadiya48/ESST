@@ -1,0 +1,303 @@
+
+body{
+  width: 100%;
+  }
+
+  .control a{
+    width: 190px;
+    height: 50px;
+    border: 1px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: whitesmoke ;
+    color: red;
+  }
+  .control a:hover{
+    text-align: center;
+    font-size: 22px;
+    background-color:rgb(250, 2, 2);
+    color: whitesmoke;
+  }
+  .cont button{
+    margin: 3px;
+  }
+  .cont button:hover{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+
+
+  /*    carousel section */
+.carousel{
+    min-height: 210px;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li {
+  margin: 5px 10px;
+  width: 22px;
+  border-radius: 50%;
+}
+.carousel-indicators.carousel-indicators-red li {
+  border-color: #f42929;
+}
+.carousel-indicators.carousel-indicators-red .active {
+  background-color: #f42929;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  margin: 0 auto;
+  height: initial;
+  border-radius: 10px;
+  width: 100%;
+}
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  z-index: 1;
+}
+.carousel.fade .item:first-child {
+  top: auto;
+  position: relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index: 2;
+}
+.section-demo{
+  margin-top: 50px;
+ }
+.section-demo a{
+  margin-top: 20px;
+ }
+.section-demo .demo-image{
+  position: relative;
+  width: 100%;
+  display: block;
+ }
+.section-demo .demo-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+ }
+.section-demo .row:first-child{
+  margin-bottom: 100px;
+ }
+ .section-demo .carousel-inner{
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.23);
+}
+.section{
+  padding: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+.topp{
+  top: 70px;
+}
+
+
+
+
+.section-lg {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.section-shaped{
+    position: relative;
+    overflow: hidden;
+}
+.section-shaped .shape {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.section-shaped .shape span {
+  position: absolute;
+}
+.section-shaped .shape+.container {
+  position: relative;
+  height: 100%;
+}
+.section-shaped .shape-default {
+  background: linear-gradient(150deg, #f86d6d 15%, #fc5959 70%, #d32d2d 94%);
+}
+.section-shaped .shape-default :nth-child(1) {
+  background: #f86d6d;
+}
+.section-shaped .shape-default :nth-child(2) {
+  background: #db8989;
+}
+.section-shaped .shape-default :nth-child(3) {
+  background: #e05e5e;
+}
+.section-shaped .shape-default :nth-child(4) {
+  background: #ec7975;
+}
+.section-shaped .shape-default :nth-child(5) {
+  background: #d32d2d;
+}
+.section-shaped .shape-style-1 span {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.section-shaped .shape-style-1 .span-200 {
+  height: 200px;
+  width: 200px;
+}
+.section-shaped .shape-style-1 .span-150 {
+  height: 150px;
+  width: 150px;
+}
+.section-shaped .shape-style-1 .span-100 {
+  height: 100px;
+  width: 100px;
+}
+.section-shaped .shape-style-1 .span-75 {
+  height: 75px;
+  width: 75px;
+}
+.section-shaped .shape-style-1 .span-50 {
+  height: 50px;
+  width: 50px;
+}
+.section-shaped .shape-style-1 :nth-child(1) {
+  left: -4%;
+  bottom: auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+.section-shaped .shape-style-1 :nth-child(2) {
+  right: 4%;
+  top: 10%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.section-shaped .shape-style-1 :nth-child(3) {
+  top: 280px;
+  right: 5.66666%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.section-shaped .shape-style-1 :nth-child(4) {
+  top: 320px;
+  right: 7%;
+  background: rgba(255, 255, 255, 0.15);
+}
+.section-shaped .shape-style-1 :nth-child(5) {
+  top: 38%;
+  left: 1%;
+  right: auto;
+  background: rgba(255, 255, 255, 0.05);
+}
+.section-shaped .shape-style-1 :nth-child(6) {
+  width: 200px;
+  height: 200px;
+  top: 44%;
+  left: 10%;
+  right: auto;
+  background: rgba(255, 255, 255, 0.15);
+}
+.section-shaped .shape-style-1 :nth-child(7) {
+  bottom: 50%;
+  right: 36%;
+  background: rgba(255, 255, 255, 0.04);
+}
+.section-shaped .shape-style-1 :nth-child(8) {
+  bottom: 70px;
+  right: 2%;
+  background: rgba(255, 255, 255, 0.2);
+}
+.section-shaped .shape-style-1 :nth-child(9) {
+  bottom: 1%;
+  right: 2%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.section-shaped .shape-style-1 :nth-child(10) {
+  bottom: 1%;
+  left: 1%;
+  right: auto;
+  background: rgba(255, 255, 255, 0.05);
+}
+@media (max-width: 991.98px) {
+  .section-shaped .shape-style-1 span {
+    height: 120px;
+  }
+}
+@media (max-width: 767.98px) {
+  .section-shaped .shape-style-1 span {
+    height: 90px;
+  }
+}
+.section-shaped .shape-style-1.shape-default {
+  background: linear-gradient(150deg, #f86d6d 15%, #ee3838 70%, #fd0000 94%);
+}
+
+.separator {
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+  transform: translateZ(0);
+  overflow: hidden;
+  pointer-events: none;
+}
+.separator svg {
+  position: absolute;
+  pointer-events: none;
+}
+.separator-top {
+  top: 0;
+  bottom: auto;
+  background-color: white;
+}
+.separator-top svg {
+  top: 0;
+}
+.separator-bottom {
+  top: auto;
+  bottom: 0;
+}
+.separator-bottom svg {
+  bottom: 0;
+}
+.separator-skew {
+  height: 80px;
+}
+@media (max-width: 991.98px) {
+  .separator-skew {
+    z-index: 0;
+  }
+}
+
+
+
+
+
+
+
+
+

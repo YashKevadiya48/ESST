@@ -1,0 +1,17 @@
+
+.header{ 
+    background-color: antiquewhite;  
+}
+.row1{
+    padding: 20px 0px 20px 20px;
+    
+}
+.row1 > * {
+    width: inherit;
+}
+.name{
+    padding: 10px 0px 0px 0px;
+}
+.name h1{
+    text-shadow: 3px 2px 2px red;
+}
