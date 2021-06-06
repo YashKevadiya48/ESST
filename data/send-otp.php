@@ -34,7 +34,7 @@
                         $mail->Host = 'smtp.gmail.com';
                         $mail->Port = 587;  
                         $mail->Username = 'yashkevadiya9@gmail.com';
-                        $mail->Password = 'Kevadiya@#18';   
+                        $mail->Password = '';   
 
                     //   $path = 'reseller.pdf';
                     //   $mail->AddAttachment($path);
